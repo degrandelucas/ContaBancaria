@@ -1,18 +1,33 @@
-## Getting Started
+# ContaTerminal - Simulação de Abertura de Conta
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto consiste em uma aplicação Java simples que simula o a confirmação dos dados para acesso a uma conta bancária em um terminal de console. A aplicação coleta informações básicas do usuário, como nome, sobrenome, agência, número da conta e saldo inicial, e exibe uma mensagem de confirmação com todos os dados inseridos.
 
-## Folder Structure
+## Funcionalidades Principais
 
-The workspace contains two folders by default, where:
+1. **Coleta de Informações do Usuário:** O usuário é solicitado a fornecer seu nome, sobrenome, agência, número da conta e saldo inicial.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. **Exibição de Dados Confirmados:** Após a coleta das informações, a aplicação exibe uma mensagem confirmando os dados fornecidos pelo usuário.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Passo a Passo do Projeto
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Passo 1: Coletar Informações
 
-## Dependency Management
+Ao iniciar a aplicação, o usuário é saudado e é solicitado a inserir os seguintes dados:
+- Nome
+- Último Sobrenome
+- Agência
+- Número da Conta
+- Saldo Inicial
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Passo 2: Exibição da Confirmação
+
+Após a inserção dos dados, a aplicação exibe uma mensagem no console confirmando os dados fornecidos pelo usuário, incluindo o nome completo, agência e número da conta, e o saldo inicial.
+
+## Tecnologias Utilizadas
+
+- **Java:** Linguagem de programação utilizada para desenvolver a aplicação.
+- **Scanner (java.util.Scanner):** Pacote utilizado para capturar entradas do usuário via console.
+
+## Autor
+
+- **Nome:** Lucas Degrande
