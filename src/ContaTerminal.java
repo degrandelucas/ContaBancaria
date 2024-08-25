@@ -1,13 +1,24 @@
 import java.util.Scanner;
-
+/**
+ * A classe ContaTerminal simula a abertura de uma conta bancária via terminal de console.
+ * A aplicação solicita ao usuário informações básicas como nome, sobrenome, agência, número da conta e saldo inicial.
+ * Após coletar os dados, a aplicação exibe uma mensagem de confirmação.
+ */
 public class ContaTerminal {
+
+    /**
+     * O método principal (main) que executa a aplicação.
+     * Solicita e lê os dados do usuário, em seguida, exibe uma mensagem de confirmação.
+     *
+     * @param args Argumentos da linha de comando (não são utilizados neste programa).
+     */
     public static void main(String[] args) {
 
         Scanner leituraDados = new Scanner(System.in);
 
         System.out.println("Olá, iremos confirmar seus dados!");
         System.out.print("Digite seu nome: ");
-        String nome = leituraDados.next(); 
+        String nome = leituraDados.next();
         System.out.print("Digite seu último sobrenome: ");
         String ultimoNome = leituraDados.next(); 
         System.out.print("Digite sua agência: ");
