@@ -3,6 +3,9 @@ import java.util.Scanner;
  * A classe ContaTerminal simula a abertura de uma conta bancária via terminal de console.
  * A aplicação solicita ao usuário informações básicas como nome, sobrenome, agência, número da conta e saldo inicial.
  * Após coletar os dados, a aplicação exibe uma mensagem de confirmação.
+ * @author Lucas Degrande
+ * @version 1.0
+ * @since 2024-08-25
  */
 public class ContaTerminal {
 
